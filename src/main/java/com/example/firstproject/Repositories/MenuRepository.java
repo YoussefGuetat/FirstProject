@@ -7,6 +7,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface MenuRepository extends JpaRepository<Menu,Long> {
-    List<Menu> findByTypeMenuAndPrixTotalGreaterThan(TypeMenu typeMenu, Float prixTotal);
+    List<Menu> findByTypeMenuAndComposantsPrixGreaterThan(TypeMenu typeMenu, Float prixTotal);
 
 }

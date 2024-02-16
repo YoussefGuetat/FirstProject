@@ -21,4 +21,5 @@ public class Commande{
     Client client;
     @ManyToOne
     Menu menu;
+    
 }

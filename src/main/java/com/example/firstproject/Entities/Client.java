@@ -16,4 +16,5 @@ public class Client{
     private LocalDate datePremiereVisite;
     @OneToMany(mappedBy = "client")
     private ArrayList<Commande> commandes;
+    
 }

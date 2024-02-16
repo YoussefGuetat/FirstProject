@@ -15,5 +15,4 @@ public class ChaineRestauration {
     private LocalDate dateCreation;
     @OneToMany(mappedBy = "chaineRestauration")
     ArrayList<Restaurant> restaurants;
-
 }

@@ -14,5 +14,5 @@ public class DetailComposant{
     private Float imc;
     @Enumerated(EnumType.STRING)
     private TypeComposant typeComposant;
-// Constructeur et accesseurs (getters) et mutateurs (setters)
+
 }

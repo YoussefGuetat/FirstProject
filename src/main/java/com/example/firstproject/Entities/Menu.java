@@ -23,4 +23,5 @@ public class Menu{
     private ArrayList<Commande> commandes;
     @OneToMany(mappedBy = "menu")
     private ArrayList<Composant> composants;
+    
 }

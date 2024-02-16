@@ -18,4 +18,5 @@ public class Composant{
     Menu menu;
     @OneToOne
     DetailComposant detailComposant;
+    
 }

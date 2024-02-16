@@ -16,4 +16,5 @@ public class ChefCuisinier {
     private TypeChef typeChef;
     @ManyToMany(mappedBy = "chefCuisinier")
     private ArrayList<Menu> menu;
+
 }

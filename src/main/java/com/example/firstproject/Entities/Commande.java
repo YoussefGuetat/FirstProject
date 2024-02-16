@@ -2,11 +2,12 @@ package com.example.firstproject.Entities;
 
 import jakarta.persistence.*;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;
 @Entity
 @Table( name = "Commande")
-public class Commande{
+public class Commande implements Serializable {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     @Column(name="idCommande")

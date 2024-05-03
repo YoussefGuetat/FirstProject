@@ -1,0 +1,35 @@
+2024-04-19 14:06:43.248 [restartedMain] INFO  t.e.t.d.s.SpringProjApplication - Starting SpringProjApplication using Java 17.0.10 with PID 20316 (D:\ASI-II-main\target\classes started by Dell in D:\ASI-II-main)
+2024-04-19 14:06:43.252 [restartedMain] INFO  t.e.t.d.s.SpringProjApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-19 14:06:43.457 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19 14:06:43.480 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 8 JPA repository interfaces.
+2024-04-19 14:06:43.574 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-04-19 14:06:43.575 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-19 14:06:43.576 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-04-19 14:06:43.594 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/menu] - Initializing Spring embedded WebApplicationContext
+2024-04-19 14:06:43.594 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 340 ms
+2024-04-19 14:06:43.630 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19 14:06:43.633 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-19 14:06:43.637 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19 14:06:43.638 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2024-04-19 14:06:43.640 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@da25cee
+2024-04-19 14:06:43.640 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2024-04-19 14:06:43.641 [restartedMain] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-04-19 14:06:43.742 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19 14:06:43.840 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 14:06:44.042 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-19 14:06:44.141 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-04-19 14:06:44.166 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8089 (http) with context path '/menu'
+2024-04-19 14:06:44.171 [restartedMain] INFO  t.e.t.d.s.SpringProjApplication - Started SpringProjApplication in 0.945 seconds (process running for 49.47)
+2024-04-19 14:06:44.172 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-04-19 14:27:11.466 [http-nio-8089-exec-6] INFO  o.a.c.c.C.[.[localhost].[/menu] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-19 14:27:11.467 [http-nio-8089-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-19 14:27:11.468 [http-nio-8089-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-19 14:27:36.424 [http-nio-8089-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public tn.esprit.tic.ds.springproj.entities.Client tn.esprit.tic.ds.springproj.controllers.ClientController.addClient(tn.esprit.tic.ds.springproj.entities.Client)]
+2024-04-19 14:30:05.887 [http-nio-8089-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<tn.esprit.tic.ds.springproj.entities.Client>` from Object value (token `JsonToken.START_OBJECT`)]
+2024-04-19 14:30:17.102 [http-nio-8089-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<tn.esprit.tic.ds.springproj.entities.Client>` from Object value (token `JsonToken.START_OBJECT`)]
+2024-04-19 14:30:43.872 [http-nio-8089-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<tn.esprit.tic.ds.springproj.entities.Client>` from Object value (token `JsonToken.START_OBJECT`)]
+2024-04-19 14:35:59.013 [http-nio-8089-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-04-19 14:36:13.166 [http-nio-8089-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-04-19 15:06:43.226 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 15:06:43.392 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2024-04-19 15:06:43.394 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.

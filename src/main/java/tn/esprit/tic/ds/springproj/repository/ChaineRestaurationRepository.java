@@ -7,4 +7,7 @@ import tn.esprit.tic.ds.springproj.entities.ChaineRestauration;
 @Repository
 public interface ChaineRestaurationRepository extends JpaRepository<ChaineRestauration, Long> {
     ChaineRestauration findByLibelle(String libelle);
+    
+    
+    
 }
